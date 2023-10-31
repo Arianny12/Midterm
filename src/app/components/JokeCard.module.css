@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+.jokeCardWrapper{
+    background-color:pink;
+    border: 5px solid palevioletred;
+    border-radius: 150px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+.contentWrapper{
+    display: flex;
+    justify-content:center;
+}
+
+.headerBox{
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    padding: 10px;
+}
+
+.headerBox a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 10px;
+    
+}
+.headerBox a:hover {
+    color: palevioletred;
+    font-size: larger;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.leftSide{
+    align-items: center;
+    display: flex;    
+    flex-direction: column;
+    margin-left: 2%;
+}
+.dogImg{
+    width: 400px;
+}
+
+.dogImg svg{
+    height: auto;
+    width: 100%;
+}
+
+.rightSide{
+    align-items: center;
+    margin-top: 5%;
+}
+
+.thinkingCloud{
+    align-items: center;
+    animation: rattle 1s;
+    animation-delay: .25s;  
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/12/16/29/speech-bubble-150981_960_720.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    display:flex;
+    height: 500px;
+    justify-content:center;
+    margin-left: 30px;
+    overflow: hidden;
+    width: 500px;
+}
+
+.jokeBox{
+    animation: slam 2s;
+    animation-timing-function: ease-in;
+    display:flex;
+    height: 200px;
+    justify-content:center;
+    margin-left: 10px;
+    width: 380px;
+}
+
+@keyframes rattle
+{
+  0% { margin-top: 0; margin-left: 0; }
+  10% { margin-top: -5px; margin-left: 0; }
+  20% { margin-top: 0; margin-left: -5px; }
+  30% { margin-top: 5px; margin-left: 0; }
+  40% { margin-top: 0; margin-left: 5px; }
+  50% { margin-top: -2px; margin-left: 0; }
+  60% { margin-top: 0; margin-left: -2px; }
+  70% { margin-top: 2px; margin-left: 0; }
+  80% { margin-top: 0; margin-left: 2px; }
+  90% { margin-top: -1px; margin-left: 0; }
+  100% { margin-top: 0; margin-left: 0; }
+}

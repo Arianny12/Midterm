@@ -1,14 +1,13 @@
 import Link from 'next/link'
-import styles from "./MovieCard.module.css"
+import styles from "./JokeCard.module.css"
 
 const Header =  () => (
     <header>
         <nav className={styles.headerBox}>
-            {/* <Link href='MovieName'>Movie Name</Link>
-            <Link href='New York'>New York</Link>
-            <Link href='California'>California</Link>
-            <Link href='Paris'>Paris</Link> */}
-
+            <Link href='samoyed'>Samoyed</Link>
+            <Link href='husky'>Husky</Link>
+            <Link href='appenzeller'>Appenzeller</Link>
+            <Link href='eskimo'>Eskimo</Link>
         </nav>
     </header>
 );
