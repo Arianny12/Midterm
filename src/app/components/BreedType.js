@@ -1,6 +1,6 @@
 "use-client"
  
-// How do I make this work?
+
 const BreedType = ({breed}) => {
     switch(breed){
         case "husky":
